@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021517BF60E015E852B54792A30AA9FC /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5BC749425C58F86E5763EA225F7B5 /* MZTransition.m */; };
+		0ABDB587C9EBCE01C35B69D1C3F33E61 /* MZFormSheetPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4A99B7452FCCF3ED624DA46908112B /* MZFormSheetPresentationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5D667D1C275A1DE746EFD40EA2D4C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363707783DF9805A51585304FACA532 /* QuartzCore.framework */; };
+		16B613F9E9FFC8E5D5530292F2AF7811 /* MZFormSheetPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FA221217D98896247A46C4CA95A97D /* MZFormSheetPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178923D881A4F9A50A98E78D2804F3DF /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 423702F377AFD3543A51979EF912568D /* MZAppearance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17B86C714524EAA79F6AB8F855833700 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B53728D207333DBCE3A3AD38EBBAE730 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		187555025D0DA78D7F1F5A4FB6E807F0 /* MZFormSheetPresentationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF9A28831E47D4B1F8DDD4C977BCF50 /* MZFormSheetPresentationController-dummy.m */; };
+		1E8D70DCFE9F90E6C4D6A1AF5787EAC4 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA135BB9A70F202C7FC5D60A3E192C94 /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		248234CEBB5F39A5829AAFE4C3237F76 /* RMStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056ABA7E6C0BDEC68E6F607AA2FAE186 /* RMStore-dummy.m */; };
+		2B5A42F1FA843213B1E591A12CF060CE /* MZFormSheetPresentationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5174D26459741D783C5869D31B45CAC5 /* MZFormSheetPresentationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		362A7DFC8B20F24F25C42F8FCADA068B /* Pods-SecretCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4017639F4DA3FD51BB5F1D976527F523 /* Pods-SecretCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40632C408207BBE7E258C4820084F73F /* MZFormSheetPresentationViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F54D32ED2FB0BE2FA8CCB6F6F9F9BF /* MZFormSheetPresentationViewControllerSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B193AD4CF8F1C16F96B3FFCF3BF80F /* MZAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A0004BBE318E82A17AB73F1EED0BE9 /* MZAppearance-dummy.m */; };
+		4BE8398D1A70CBF3D1172BE7B6067A49 /* MZTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4F3C0F0BC86F50BC1BB623EBD040F8 /* MZTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ECC785594EE55621130E4453B2D68AD /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E201A7E5628DB42BF238F58B450550C /* UIViewController+TargetViewController.m */; };
+		51C17D8E83D658B9BE7BF4384FC26B71 /* Pods-SecretCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840322F9E43C7745F24A08EF0FB77AAC /* Pods-SecretCamera-dummy.m */; };
+		598946A32B99ED65C0EAD549682D7005 /* MZAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3266D7FF720055E8223D768CE1183897 /* MZAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B709ADA72246714F6949FB41BDF161 /* RMStoreKeychainPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8C04EAD07AFB971F6C20AC4631D631 /* RMStoreKeychainPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BBC6EC5509D9FE528BF635DBCD002FE /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9229DB2CE6103C2DE81AD7E6C91E27C8 /* MZFormSheetContentSizingNavigationController.m */; };
+		5DC2BB5905364B1B0D48F09F86158606 /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884DB20BB54B29002EF6FEFCAD7372CA /* MZFormSheetPresentationViewController.m */; };
+		60A5259821DB2C53109349809E2224CD /* RMStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F537B0417D64895D6CDEA0115AC4712C /* RMStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61047E3AD98AB06DA3BAE7E93592060B /* RMStoreKeychainPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 285163B8D54778F7CC51EAAEB4283B1F /* RMStoreKeychainPersistence.m */; };
+		71D581F4DDAA2C214334A7117BE0B7EC /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = A874E153F53C72206D3666861802B6AE /* NSInvocation+Copy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76DEF04F243056E40F9EBF7087B3D4D8 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2D04739705A1EF98A277D332AC5AC /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		7783CA2EA10C76BCCF8750BF797AAF49 /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0DB94DF51F9D379DD5FB604F25BF52 /* MZFormSheetPresentationController.m */; };
+		7E17262C88C4E66FD44534286A70EFAA /* MZMethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = F3215702C207185E17F08D656E6FA643 /* MZMethodSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FDEA4E74DE7674D4E913BB8E0ED7F49 /* MZFormSheetPresentationContentSizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4A40F8481394CB32BFD65BB1C14ADF /* MZFormSheetPresentationContentSizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C1BE1446EA3D6C233C5608E97DBE99 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7378E8DDAC892F5A08E11D71CD6D32E6 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827CFB2FF907B088AC9018A9CBB95783 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363707783DF9805A51585304FACA532 /* QuartzCore.framework */; };
+		88BC91A32C4407800D2B8CA38C3F8364 /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AFBB2BCF760E05FE9958A2CAEF7444 /* MZMethodSwizzler.m */; };
+		89AF91E353666146B5FCB59443C56CA2 /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 62001E4F3BCE8E9DF226D08174D21F5C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EDFB1A62FFEC6BA8A6A14123393424C /* UIViewController+TargetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F831639CFD3636145AB38634416B61D /* UIViewController+TargetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948746285B76C7812BA6C481DC2F5ED8 /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = B219286C844F8EF07871E1F73E05297F /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96415346FCACBA0561B631755CF6B402 /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3192274B13D02719FEDA71C837E9B7C6 /* MZBlurEffectAdapter.m */; };
+		A2B66223CE293AE05B9162E1A2EFF69F /* MZAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB13E7602956B329F9D5CC0327E2D4C /* MZAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59232501B586C668581678BA7413A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */; };
+		ACE968640ED4934EC5D09D835B18171C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */; };
+		AEDAAD5F3A0F7ED343E11C68BA8F6B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */; };
+		BBE14289B3E4ABAED5C652FC57F219D8 /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 208F4E3DE4DD8ACE9D27BE4B289C4EF5 /* RMStore.m */; };
+		C93FDC38026DEF276D45C839D978070B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99694EC3BF1650DB3C029C751731F205 /* StoreKit.framework */; };
+		CD0DCE16D8D0C26BD576BF55FFC4333E /* MZFormSheetPresentationViewControllerInteractiveAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C1F55BE2896D9390A45A2055B7DA44 /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED118100EF2A353129E25CB63A8E5EC /* MZFormSheetContentSizingNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B017F9654594F2D6D3A5D15A0C35E32D /* MZFormSheetContentSizingNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51E47B720934D4535B3E18D73550896 /* MZFormSheetPresentationViewControllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3321D8AFBE194FC1D513CEAB0BB0C1F2 /* MZFormSheetPresentationViewControllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55A8729C4A376CBBD8324279A2A6C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */; };
+		E586145C10ED88699EBB2E414D931C3D /* MZFormSheetContentSizingNavigationControllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 85ED7409867C1B6900A0A6F1A2518F5A /* MZFormSheetContentSizingNavigationControllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB641C4F7F69A13A5F416018CC03464C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CC6DA56FD99D189C1DCFED7AB6CFDD /* Security.framework */; };
+		EBDDACEF7E444181C51D9BBCE91E1474 /* RMStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA9D2EB5A32FADF1E8B7DF59567D76C /* RMStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43D6C385DB340909B5EED4AFF54C8D4 /* MZBlurEffectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F230F162FE69D3D81335D7418AE74DAB /* MZBlurEffectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98E25BDF8CFFC958C59822710491887 /* NSInvocation+Copy.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B4138C40FE5C041A11A1BECECB3DFD /* NSInvocation+Copy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6B19CC967D7BBF82DB09AB1E5032D9 /* MZAppearance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B0ACB1DE710ECFB10DD583A05DBDDB /* MZAppearance.framework */; };
+		FA88FAA467BB2C87C08B03D4689B67CB /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D42515B739537D004BE73B4EE6A8F /* MZFormSheetPresentationViewControllerSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A816B2271DB862452C5BD9EC8297B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFABAFE9408FF95CFC8B3C3770D56837;
+			remoteInfo = MZAppearance;
+		};
+		21AF1CBF9A54F2F99565DCF630A4A669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C21158A7B41D923AD9278EC173670D3;
+			remoteInfo = MZFormSheetPresentationController;
+		};
+		48832D83FB6B752FB55B607029547537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC7286591867DD8E2F346AB1F11091A;
+			remoteInfo = RMStore;
+		};
+		C34ECFB9DE746913FA880E317AD4ADCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFABAFE9408FF95CFC8B3C3770D56837;
+			remoteInfo = MZAppearance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056ABA7E6C0BDEC68E6F607AA2FAE186 /* RMStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMStore-dummy.m"; sourceTree = "<group>"; };
+		05CC6DA56FD99D189C1DCFED7AB6CFDD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		07F44764CDD2B6A9D5E283457B85AA3E /* RMStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1363707783DF9805A51585304FACA532 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		17C1B3BAD1A87B271A13BA36AD979848 /* MZAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZAppearance.modulemap; sourceTree = "<group>"; };
+		17FA221217D98896247A46C4CA95A97D /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationController.h; path = MZFormSheetPresentationController/MZFormSheetPresentationController.h; sourceTree = "<group>"; };
+		1BD3CCBFF5BFCAE87290EA2A1C4179E3 /* Pods-SecretCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecretCamera-frameworks.sh"; sourceTree = "<group>"; };
+		1DA9D2EB5A32FADF1E8B7DF59567D76C /* RMStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMStore.h; path = RMStore/RMStore.h; sourceTree = "<group>"; };
+		208F4E3DE4DD8ACE9D27BE4B289C4EF5 /* RMStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStore.m; path = RMStore/RMStore.m; sourceTree = "<group>"; };
+		23AFBB2BCF760E05FE9958A2CAEF7444 /* MZMethodSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZMethodSwizzler.m; path = MZFormSheetPresentationController/MZMethodSwizzler.m; sourceTree = "<group>"; };
+		2463A5389CAC50B02A121744FCDF1E8D /* RMStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMStore.modulemap; sourceTree = "<group>"; };
+		24DA675A38A714EC2EC917651E788660 /* MZFormSheetPresentationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController-prefix.pch"; sourceTree = "<group>"; };
+		285163B8D54778F7CC51EAAEB4283B1F /* RMStoreKeychainPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStoreKeychainPersistence.m; path = RMStore/Optional/RMStoreKeychainPersistence.m; sourceTree = "<group>"; };
+		3192274B13D02719FEDA71C837E9B7C6 /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZBlurEffectAdapter.m; path = MZFormSheetPresentationController/MZBlurEffectAdapter.m; sourceTree = "<group>"; };
+		3266D7FF720055E8223D768CE1183897 /* MZAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAppearance-umbrella.h"; sourceTree = "<group>"; };
+		3321D8AFBE194FC1D513CEAB0BB0C1F2 /* MZFormSheetPresentationViewControllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewControllerAnimator.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimator.h; sourceTree = "<group>"; };
+		381181C3E9EEBD9C3814C835FFFBEC7A /* MZFormSheetPresentationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZFormSheetPresentationController.modulemap; sourceTree = "<group>"; };
+		3A43092AD87D46E332F3773098AE3309 /* MZFormSheetPresentationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFormSheetPresentationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4017639F4DA3FD51BB5F1D976527F523 /* Pods-SecretCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecretCamera-umbrella.h"; sourceTree = "<group>"; };
+		423702F377AFD3543A51979EF912568D /* MZAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZAppearance.m; path = MZAppearance/MZAppearance.m; sourceTree = "<group>"; };
+		45C1F55BE2896D9390A45A2055B7DA44 /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewControllerInteractiveAnimator.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveAnimator.h; sourceTree = "<group>"; };
+		5174D26459741D783C5869D31B45CAC5 /* MZFormSheetPresentationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController-umbrella.h"; sourceTree = "<group>"; };
+		5F4F3C0F0BC86F50BC1BB623EBD040F8 /* MZTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTransition.h; path = MZFormSheetPresentationController/MZTransition.h; sourceTree = "<group>"; };
+		5F831639CFD3636145AB38634416B61D /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TargetViewController.h"; path = "MZFormSheetPresentationController/UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		62001E4F3BCE8E9DF226D08174D21F5C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MZFormSheetPresentationController Swift Example-Bridging-Header.h"; path = "MZFormSheetPresentationController/MZFormSheetPresentationController Swift Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		635BB36E353B3A0421BEA7A1D3F8E25A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B2F16276BADB196AE8FAD58F3AA825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C766A11C302407E6D2F7976EA41C77 /* MZAppearance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAppearance.xcconfig; sourceTree = "<group>"; };
+		6C4A40F8481394CB32BFD65BB1C14ADF /* MZFormSheetPresentationContentSizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationContentSizing.h; path = MZFormSheetPresentationController/MZFormSheetPresentationContentSizing.h; sourceTree = "<group>"; };
+		7378E8DDAC892F5A08E11D71CD6D32E6 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewControllerAnimatedTransitioning.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		7D3D42515B739537D004BE73B4EE6A8F /* MZFormSheetPresentationViewControllerSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetPresentationViewControllerSegue.m; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerSegue.m; sourceTree = "<group>"; };
+		7F0DB94DF51F9D379DD5FB604F25BF52 /* MZFormSheetPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetPresentationController.m; path = MZFormSheetPresentationController/MZFormSheetPresentationController.m; sourceTree = "<group>"; };
+		81A0004BBE318E82A17AB73F1EED0BE9 /* MZAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZAppearance-dummy.m"; sourceTree = "<group>"; };
+		82E59A84D5680897B48442DB696B2E53 /* MZAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAppearance-prefix.pch"; sourceTree = "<group>"; };
+		840322F9E43C7745F24A08EF0FB77AAC /* Pods-SecretCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecretCamera-dummy.m"; sourceTree = "<group>"; };
+		84C2D04739705A1EF98A277D332AC5AC /* MZFormSheetContentSizingNavigationControllerAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetContentSizingNavigationControllerAnimator.m; path = MZFormSheetPresentationController/MZFormSheetContentSizingNavigationControllerAnimator.m; sourceTree = "<group>"; };
+		85ED7409867C1B6900A0A6F1A2518F5A /* MZFormSheetContentSizingNavigationControllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetContentSizingNavigationControllerAnimator.h; path = MZFormSheetPresentationController/MZFormSheetContentSizingNavigationControllerAnimator.h; sourceTree = "<group>"; };
+		884DB20BB54B29002EF6FEFCAD7372CA /* MZFormSheetPresentationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetPresentationViewController.m; path = MZFormSheetPresentationController/MZFormSheetPresentationViewController.m; sourceTree = "<group>"; };
+		88B4138C40FE5C041A11A1BECECB3DFD /* NSInvocation+Copy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Copy.h"; path = "MZAppearance/NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		8E7FFD617B66A6AE2ED26E9CA6DFDDEC /* Pods-SecretCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		8EFBD520C3A10095C79F6A0469AEE905 /* RMStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMStore.xcconfig; sourceTree = "<group>"; };
+		9229DB2CE6103C2DE81AD7E6C91E27C8 /* MZFormSheetContentSizingNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetContentSizingNavigationController.m; path = MZFormSheetPresentationController/MZFormSheetContentSizingNavigationController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99694EC3BF1650DB3C029C751731F205 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A610C2C9CC6785295B3F4EC78CE91DA /* Pods_SecretCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB13E7602956B329F9D5CC0327E2D4C /* MZAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZAppearance.h; path = MZAppearance/MZAppearance.h; sourceTree = "<group>"; };
+		9E201A7E5628DB42BF238F58B450550C /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TargetViewController.m"; path = "MZFormSheetPresentationController/UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		9E8C04EAD07AFB971F6C20AC4631D631 /* RMStoreKeychainPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMStoreKeychainPersistence.h; path = RMStore/Optional/RMStoreKeychainPersistence.h; sourceTree = "<group>"; };
+		A0999096070856740327713C2A2DD16F /* Pods-SecretCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecretCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3CC461DF4981F9F0F7BCE8E8036C024 /* Pods-SecretCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SecretCamera.modulemap"; sourceTree = "<group>"; };
+		A3F54D32ED2FB0BE2FA8CCB6F6F9F9BF /* MZFormSheetPresentationViewControllerSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewControllerSegue.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerSegue.h; sourceTree = "<group>"; };
+		A874E153F53C72206D3666861802B6AE /* NSInvocation+Copy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+Copy.m"; path = "MZAppearance/NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		A974FACFC64C47B26122E89E4499745F /* MZFormSheetPresentationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZFormSheetPresentationController.xcconfig; sourceTree = "<group>"; };
+		ABF9A28831E47D4B1F8DDD4C977BCF50 /* MZFormSheetPresentationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZFormSheetPresentationController-dummy.m"; sourceTree = "<group>"; };
+		AC78F5D4DAAFDB63163373E77D1AF2AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B017F9654594F2D6D3A5D15A0C35E32D /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetContentSizingNavigationController.h; path = MZFormSheetPresentationController/MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
+		B219286C844F8EF07871E1F73E05297F /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewControllerInteractiveTransitioning.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		B53728D207333DBCE3A3AD38EBBAE730 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetPresentationViewControllerInteractiveAnimator.m; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveAnimator.m; sourceTree = "<group>"; };
+		B6A5BC749425C58F86E5763EA225F7B5 /* MZTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTransition.m; path = MZFormSheetPresentationController/MZTransition.m; sourceTree = "<group>"; };
+		CA135BB9A70F202C7FC5D60A3E192C94 /* MZFormSheetPresentationViewControllerAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetPresentationViewControllerAnimator.m; path = MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimator.m; sourceTree = "<group>"; };
+		CC31228F2204AC47BA9C50CF76798224 /* RMStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMStore-prefix.pch"; sourceTree = "<group>"; };
+		CD4A99B7452FCCF3ED624DA46908112B /* MZFormSheetPresentationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetPresentationViewController.h; path = MZFormSheetPresentationController/MZFormSheetPresentationViewController.h; sourceTree = "<group>"; };
+		CF61DE0DBFCD120D8328E97A6004726D /* Pods-SecretCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretCamera.release.xcconfig"; sourceTree = "<group>"; };
+		CF9234F19AB502F5046A4C5E17227114 /* Pods-SecretCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecretCamera-resources.sh"; sourceTree = "<group>"; };
+		D7622F39F91DD21B0614E995B0E6D7FA /* Pods-SecretCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2AFD7985488177534A43597242BB39D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0B0ACB1DE710ECFB10DD583A05DBDDB /* MZAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230F162FE69D3D81335D7418AE74DAB /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZBlurEffectAdapter.h; path = MZFormSheetPresentationController/MZBlurEffectAdapter.h; sourceTree = "<group>"; };
+		F293E0C2A9D55435361C868F348CDB64 /* MZAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3215702C207185E17F08D656E6FA643 /* MZMethodSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMethodSwizzler.h; path = MZFormSheetPresentationController/MZMethodSwizzler.h; sourceTree = "<group>"; };
+		F537B0417D64895D6CDEA0115AC4712C /* RMStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMStore-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2133E124EE80E09BAFD4A684EE7262BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE968640ED4934EC5D09D835B18171C /* Foundation.framework in Frameworks */,
+				827CFB2FF907B088AC9018A9CBB95783 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0D52C12E3FC0EE61533C7DBE383A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59232501B586C668581678BA7413A7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820DE33A049A402A0B0FF61ECF7B51C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDAAD5F3A0F7ED343E11C68BA8F6B34 /* Foundation.framework in Frameworks */,
+				EB641C4F7F69A13A5F416018CC03464C /* Security.framework in Frameworks */,
+				C93FDC38026DEF276D45C839D978070B /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB07DE333FD0ACE13DD0873707AF4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55A8729C4A376CBBD8324279A2A6C70 /* Foundation.framework in Frameworks */,
+				FA6B19CC967D7BBF82DB09AB1E5032D9 /* MZAppearance.framework in Frameworks */,
+				0C5D667D1C275A1DE746EFD40EA2D4C7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050C82A4F9B97EE6A73E8685B2F80921 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				635BB36E353B3A0421BEA7A1D3F8E25A /* Info.plist */,
+				381181C3E9EEBD9C3814C835FFFBEC7A /* MZFormSheetPresentationController.modulemap */,
+				A974FACFC64C47B26122E89E4499745F /* MZFormSheetPresentationController.xcconfig */,
+				ABF9A28831E47D4B1F8DDD4C977BCF50 /* MZFormSheetPresentationController-dummy.m */,
+				24DA675A38A714EC2EC917651E788660 /* MZFormSheetPresentationController-prefix.pch */,
+				5174D26459741D783C5869D31B45CAC5 /* MZFormSheetPresentationController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZFormSheetPresentationController";
+			sourceTree = "<group>";
+		};
+		1E3723DE783629CD1AE539A71C6E8011 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC78F5D4DAAFDB63163373E77D1AF2AE /* Info.plist */,
+				2463A5389CAC50B02A121744FCDF1E8D /* RMStore.modulemap */,
+				8EFBD520C3A10095C79F6A0469AEE905 /* RMStore.xcconfig */,
+				056ABA7E6C0BDEC68E6F607AA2FAE186 /* RMStore-dummy.m */,
+				CC31228F2204AC47BA9C50CF76798224 /* RMStore-prefix.pch */,
+				F537B0417D64895D6CDEA0115AC4712C /* RMStore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMStore";
+			sourceTree = "<group>";
+		};
+		2514F9178EACBA88F96043C98404501A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B2F16276BADB196AE8FAD58F3AA825 /* Info.plist */,
+				17C1B3BAD1A87B271A13BA36AD979848 /* MZAppearance.modulemap */,
+				68C766A11C302407E6D2F7976EA41C77 /* MZAppearance.xcconfig */,
+				81A0004BBE318E82A17AB73F1EED0BE9 /* MZAppearance-dummy.m */,
+				82E59A84D5680897B48442DB696B2E53 /* MZAppearance-prefix.pch */,
+				3266D7FF720055E8223D768CE1183897 /* MZAppearance-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZAppearance";
+			sourceTree = "<group>";
+		};
+		430E2E2E38FB743492F55C431F132237 /* MZAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				9DB13E7602956B329F9D5CC0327E2D4C /* MZAppearance.h */,
+				423702F377AFD3543A51979EF912568D /* MZAppearance.m */,
+				88B4138C40FE5C041A11A1BECECB3DFD /* NSInvocation+Copy.h */,
+				A874E153F53C72206D3666861802B6AE /* NSInvocation+Copy.m */,
+				2514F9178EACBA88F96043C98404501A /* Support Files */,
+			);
+			path = MZAppearance;
+			sourceTree = "<group>";
+		};
+		4EF57E026E48E1C5A84F68CD6A87BB9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430E2E2E38FB743492F55C431F132237 /* MZAppearance */,
+				66F9E2DCE8354502A52FA6472B02461D /* MZFormSheetPresentationController */,
+				A17C5D784D260737C30EF025931E6A81 /* RMStore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55B10A3BC79909BB64A0D3A73ABF942A /* Pods-SecretCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E2AFD7985488177534A43597242BB39D /* Info.plist */,
+				A3CC461DF4981F9F0F7BCE8E8036C024 /* Pods-SecretCamera.modulemap */,
+				A0999096070856740327713C2A2DD16F /* Pods-SecretCamera-acknowledgements.markdown */,
+				D7622F39F91DD21B0614E995B0E6D7FA /* Pods-SecretCamera-acknowledgements.plist */,
+				840322F9E43C7745F24A08EF0FB77AAC /* Pods-SecretCamera-dummy.m */,
+				1BD3CCBFF5BFCAE87290EA2A1C4179E3 /* Pods-SecretCamera-frameworks.sh */,
+				CF9234F19AB502F5046A4C5E17227114 /* Pods-SecretCamera-resources.sh */,
+				4017639F4DA3FD51BB5F1D976527F523 /* Pods-SecretCamera-umbrella.h */,
+				8E7FFD617B66A6AE2ED26E9CA6DFDDEC /* Pods-SecretCamera.debug.xcconfig */,
+				CF61DE0DBFCD120D8328E97A6004726D /* Pods-SecretCamera.release.xcconfig */,
+			);
+			name = "Pods-SecretCamera";
+			path = "Target Support Files/Pods-SecretCamera";
+			sourceTree = "<group>";
+		};
+		55E806438D4C2BA8D51CD926AF370103 /* KeychainPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C04EAD07AFB971F6C20AC4631D631 /* RMStoreKeychainPersistence.h */,
+				285163B8D54778F7CC51EAAEB4283B1F /* RMStoreKeychainPersistence.m */,
+			);
+			name = KeychainPersistence;
+			sourceTree = "<group>";
+		};
+		65EDC72CC85F0E7995458222B5CC30F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B10A3BC79909BB64A0D3A73ABF942A /* Pods-SecretCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66F9E2DCE8354502A52FA6472B02461D /* MZFormSheetPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				F230F162FE69D3D81335D7418AE74DAB /* MZBlurEffectAdapter.h */,
+				3192274B13D02719FEDA71C837E9B7C6 /* MZBlurEffectAdapter.m */,
+				B017F9654594F2D6D3A5D15A0C35E32D /* MZFormSheetContentSizingNavigationController.h */,
+				9229DB2CE6103C2DE81AD7E6C91E27C8 /* MZFormSheetContentSizingNavigationController.m */,
+				85ED7409867C1B6900A0A6F1A2518F5A /* MZFormSheetContentSizingNavigationControllerAnimator.h */,
+				84C2D04739705A1EF98A277D332AC5AC /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
+				6C4A40F8481394CB32BFD65BB1C14ADF /* MZFormSheetPresentationContentSizing.h */,
+				17FA221217D98896247A46C4CA95A97D /* MZFormSheetPresentationController.h */,
+				7F0DB94DF51F9D379DD5FB604F25BF52 /* MZFormSheetPresentationController.m */,
+				62001E4F3BCE8E9DF226D08174D21F5C /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
+				CD4A99B7452FCCF3ED624DA46908112B /* MZFormSheetPresentationViewController.h */,
+				884DB20BB54B29002EF6FEFCAD7372CA /* MZFormSheetPresentationViewController.m */,
+				7378E8DDAC892F5A08E11D71CD6D32E6 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
+				3321D8AFBE194FC1D513CEAB0BB0C1F2 /* MZFormSheetPresentationViewControllerAnimator.h */,
+				CA135BB9A70F202C7FC5D60A3E192C94 /* MZFormSheetPresentationViewControllerAnimator.m */,
+				45C1F55BE2896D9390A45A2055B7DA44 /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */,
+				B53728D207333DBCE3A3AD38EBBAE730 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */,
+				B219286C844F8EF07871E1F73E05297F /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */,
+				A3F54D32ED2FB0BE2FA8CCB6F6F9F9BF /* MZFormSheetPresentationViewControllerSegue.h */,
+				7D3D42515B739537D004BE73B4EE6A8F /* MZFormSheetPresentationViewControllerSegue.m */,
+				F3215702C207185E17F08D656E6FA643 /* MZMethodSwizzler.h */,
+				23AFBB2BCF760E05FE9958A2CAEF7444 /* MZMethodSwizzler.m */,
+				5F4F3C0F0BC86F50BC1BB623EBD040F8 /* MZTransition.h */,
+				B6A5BC749425C58F86E5763EA225F7B5 /* MZTransition.m */,
+				5F831639CFD3636145AB38634416B61D /* UIViewController+TargetViewController.h */,
+				9E201A7E5628DB42BF238F58B450550C /* UIViewController+TargetViewController.m */,
+				050C82A4F9B97EE6A73E8685B2F80921 /* Support Files */,
+			);
+			path = MZFormSheetPresentationController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F5647A2CF25DE17695D64F6F3C18DA5 /* Frameworks */,
+				4EF57E026E48E1C5A84F68CD6A87BB9E /* Pods */,
+				8BF84745A45C0AB9C6F8EC11F95E1CB6 /* Products */,
+				65EDC72CC85F0E7995458222B5CC30F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF84745A45C0AB9C6F8EC11F95E1CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F293E0C2A9D55435361C868F348CDB64 /* MZAppearance.framework */,
+				3A43092AD87D46E332F3773098AE3309 /* MZFormSheetPresentationController.framework */,
+				9A610C2C9CC6785295B3F4EC78CE91DA /* Pods_SecretCamera.framework */,
+				07F44764CDD2B6A9D5E283457B85AA3E /* RMStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5647A2CF25DE17695D64F6F3C18DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0ACB1DE710ECFB10DD583A05DBDDB /* MZAppearance.framework */,
+				C8A724B732481A6E2A88B829736FBAD4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17C5D784D260737C30EF025931E6A81 /* RMStore */ = {
+			isa = PBXGroup;
+			children = (
+				FED15D4828AB4BAF7810039FD40877ED /* Core */,
+				55E806438D4C2BA8D51CD926AF370103 /* KeychainPersistence */,
+				1E3723DE783629CD1AE539A71C6E8011 /* Support Files */,
+			);
+			path = RMStore;
+			sourceTree = "<group>";
+		};
+		C8A724B732481A6E2A88B829736FBAD4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C621D787ED8657DDB015E06308BB9 /* Foundation.framework */,
+				1363707783DF9805A51585304FACA532 /* QuartzCore.framework */,
+				05CC6DA56FD99D189C1DCFED7AB6CFDD /* Security.framework */,
+				99694EC3BF1650DB3C029C751731F205 /* StoreKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FED15D4828AB4BAF7810039FD40877ED /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1DA9D2EB5A32FADF1E8B7DF59567D76C /* RMStore.h */,
+				208F4E3DE4DD8ACE9D27BE4B289C4EF5 /* RMStore.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B23FD2B5B7FA16CCF5F730B9F01C02A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A7DFC8B20F24F25C42F8FCADA068B /* Pods-SecretCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28434962F9D5C0970BFD603E6C4883C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D6C385DB340909B5EED4AFF54C8D4 /* MZBlurEffectAdapter.h in Headers */,
+				CED118100EF2A353129E25CB63A8E5EC /* MZFormSheetContentSizingNavigationController.h in Headers */,
+				E586145C10ED88699EBB2E414D931C3D /* MZFormSheetContentSizingNavigationControllerAnimator.h in Headers */,
+				7FDEA4E74DE7674D4E913BB8E0ED7F49 /* MZFormSheetPresentationContentSizing.h in Headers */,
+				89AF91E353666146B5FCB59443C56CA2 /* MZFormSheetPresentationController Swift Example-Bridging-Header.h in Headers */,
+				2B5A42F1FA843213B1E591A12CF060CE /* MZFormSheetPresentationController-umbrella.h in Headers */,
+				16B613F9E9FFC8E5D5530292F2AF7811 /* MZFormSheetPresentationController.h in Headers */,
+				0ABDB587C9EBCE01C35B69D1C3F33E61 /* MZFormSheetPresentationViewController.h in Headers */,
+				80C1BE1446EA3D6C233C5608E97DBE99 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h in Headers */,
+				E51E47B720934D4535B3E18D73550896 /* MZFormSheetPresentationViewControllerAnimator.h in Headers */,
+				CD0DCE16D8D0C26BD576BF55FFC4333E /* MZFormSheetPresentationViewControllerInteractiveAnimator.h in Headers */,
+				948746285B76C7812BA6C481DC2F5ED8 /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h in Headers */,
+				40632C408207BBE7E258C4820084F73F /* MZFormSheetPresentationViewControllerSegue.h in Headers */,
+				7E17262C88C4E66FD44534286A70EFAA /* MZMethodSwizzler.h in Headers */,
+				4BE8398D1A70CBF3D1172BE7B6067A49 /* MZTransition.h in Headers */,
+				8EDFB1A62FFEC6BA8A6A14123393424C /* UIViewController+TargetViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394ABF820B37D1B2D22539D9B1B0F888 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A5259821DB2C53109349809E2224CD /* RMStore-umbrella.h in Headers */,
+				EBDDACEF7E444181C51D9BBCE91E1474 /* RMStore.h in Headers */,
+				59B709ADA72246714F6949FB41BDF161 /* RMStoreKeychainPersistence.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D753EF5A1E27343DD6BC61CD838758 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598946A32B99ED65C0EAD549682D7005 /* MZAppearance-umbrella.h in Headers */,
+				A2B66223CE293AE05B9162E1A2EFF69F /* MZAppearance.h in Headers */,
+				F98E25BDF8CFFC958C59822710491887 /* NSInvocation+Copy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9230A4E35377EDDF7B0D73BE187C2561 /* Pods-SecretCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D5C9E05DF4B1212F62EC9EE709C7D5 /* Build configuration list for PBXNativeTarget "Pods-SecretCamera" */;
+			buildPhases = (
+				3C5C82DECE23CC61618DB20B63357013 /* Sources */,
+				6C0D52C12E3FC0EE61533C7DBE383A5E /* Frameworks */,
+				0B23FD2B5B7FA16CCF5F730B9F01C02A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E1D83A7FD033F9E2772BF13B409FE0F /* PBXTargetDependency */,
+				00C7B1883362C51D33A2B407C32294BF /* PBXTargetDependency */,
+				C9ED4E2BF46EE7AD284D79542C2BE392 /* PBXTargetDependency */,
+			);
+			name = "Pods-SecretCamera";
+			productName = "Pods-SecretCamera";
+			productReference = 9A610C2C9CC6785295B3F4EC78CE91DA /* Pods_SecretCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C21158A7B41D923AD9278EC173670D3 /* MZFormSheetPresentationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828019692235DCF35A70F03A6366A87C /* Build configuration list for PBXNativeTarget "MZFormSheetPresentationController" */;
+			buildPhases = (
+				E54AAB86B2E3592C4B29BD863E59FB42 /* Sources */,
+				BFB07DE333FD0ACE13DD0873707AF4C1 /* Frameworks */,
+				28434962F9D5C0970BFD603E6C4883C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24D83747205B8494CA99A1611E1D247 /* PBXTargetDependency */,
+			);
+			name = MZFormSheetPresentationController;
+			productName = MZFormSheetPresentationController;
+			productReference = 3A43092AD87D46E332F3773098AE3309 /* MZFormSheetPresentationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCC7286591867DD8E2F346AB1F11091A /* RMStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208E85750EF99E586A05DBFEF04B79D5 /* Build configuration list for PBXNativeTarget "RMStore" */;
+			buildPhases = (
+				0EC5024BB292D8D6D9F2689B0328B42D /* Sources */,
+				820DE33A049A402A0B0FF61ECF7B51C6 /* Frameworks */,
+				394ABF820B37D1B2D22539D9B1B0F888 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMStore;
+			productName = RMStore;
+			productReference = 07F44764CDD2B6A9D5E283457B85AA3E /* RMStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFABAFE9408FF95CFC8B3C3770D56837 /* MZAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBC1AC62CDB2CE27FBFC6C22AB3D1BD /* Build configuration list for PBXNativeTarget "MZAppearance" */;
+			buildPhases = (
+				3A2ADCB9A3CB151D7984095DD7520EC2 /* Sources */,
+				2133E124EE80E09BAFD4A684EE7262BC /* Frameworks */,
+				E8D753EF5A1E27343DD6BC61CD838758 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZAppearance;
+			productName = MZAppearance;
+			productReference = F293E0C2A9D55435361C868F348CDB64 /* MZAppearance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8BF84745A45C0AB9C6F8EC11F95E1CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFABAFE9408FF95CFC8B3C3770D56837 /* MZAppearance */,
+				9C21158A7B41D923AD9278EC173670D3 /* MZFormSheetPresentationController */,
+				9230A4E35377EDDF7B0D73BE187C2561 /* Pods-SecretCamera */,
+				FCC7286591867DD8E2F346AB1F11091A /* RMStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC5024BB292D8D6D9F2689B0328B42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248234CEBB5F39A5829AAFE4C3237F76 /* RMStore-dummy.m in Sources */,
+				BBE14289B3E4ABAED5C652FC57F219D8 /* RMStore.m in Sources */,
+				61047E3AD98AB06DA3BAE7E93592060B /* RMStoreKeychainPersistence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2ADCB9A3CB151D7984095DD7520EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B193AD4CF8F1C16F96B3FFCF3BF80F /* MZAppearance-dummy.m in Sources */,
+				178923D881A4F9A50A98E78D2804F3DF /* MZAppearance.m in Sources */,
+				71D581F4DDAA2C214334A7117BE0B7EC /* NSInvocation+Copy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C82DECE23CC61618DB20B63357013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C17D8E83D658B9BE7BF4384FC26B71 /* Pods-SecretCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54AAB86B2E3592C4B29BD863E59FB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96415346FCACBA0561B631755CF6B402 /* MZBlurEffectAdapter.m in Sources */,
+				5BBC6EC5509D9FE528BF635DBCD002FE /* MZFormSheetContentSizingNavigationController.m in Sources */,
+				76DEF04F243056E40F9EBF7087B3D4D8 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				187555025D0DA78D7F1F5A4FB6E807F0 /* MZFormSheetPresentationController-dummy.m in Sources */,
+				7783CA2EA10C76BCCF8750BF797AAF49 /* MZFormSheetPresentationController.m in Sources */,
+				5DC2BB5905364B1B0D48F09F86158606 /* MZFormSheetPresentationViewController.m in Sources */,
+				1E8D70DCFE9F90E6C4D6A1AF5787EAC4 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
+				17B86C714524EAA79F6AB8F855833700 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				FA88FAA467BB2C87C08B03D4689B67CB /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
+				88BC91A32C4407800D2B8CA38C3F8364 /* MZMethodSwizzler.m in Sources */,
+				021517BF60E015E852B54792A30AA9FC /* MZTransition.m in Sources */,
+				4ECC785594EE55621130E4453B2D68AD /* UIViewController+TargetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C7B1883362C51D33A2B407C32294BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZFormSheetPresentationController;
+			target = 9C21158A7B41D923AD9278EC173670D3 /* MZFormSheetPresentationController */;
+			targetProxy = 21AF1CBF9A54F2F99565DCF630A4A669 /* PBXContainerItemProxy */;
+		};
+		4E1D83A7FD033F9E2772BF13B409FE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = FFABAFE9408FF95CFC8B3C3770D56837 /* MZAppearance */;
+			targetProxy = 08A816B2271DB862452C5BD9EC8297B6 /* PBXContainerItemProxy */;
+		};
+		C24D83747205B8494CA99A1611E1D247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = FFABAFE9408FF95CFC8B3C3770D56837 /* MZAppearance */;
+			targetProxy = C34ECFB9DE746913FA880E317AD4ADCD /* PBXContainerItemProxy */;
+		};
+		C9ED4E2BF46EE7AD284D79542C2BE392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMStore;
+			target = FCC7286591867DD8E2F346AB1F11091A /* RMStore */;
+			targetProxy = 48832D83FB6B752FB55B607029547537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0752F808BC820BC843D4BCB72DE9A6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C766A11C302407E6D2F7976EA41C77 /* MZAppearance.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAppearance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZAppearance/MZAppearance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MZAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42B5C3E429B3D108B8E149FFE282541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A974FACFC64C47B26122E89E4499745F /* MZFormSheetPresentationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZFormSheetPresentationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MZFormSheetPresentationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47B6A1E6DCF455ED4DCC77E684AD9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6556BF4E81CCF624C5C1AF07B6571407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFBD520C3A10095C79F6A0469AEE905 /* RMStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMStore/RMStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMStore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMStore/RMStore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RMStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83B6C2255D756113925BEA9D041C308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C766A11C302407E6D2F7976EA41C77 /* MZAppearance.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAppearance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZAppearance/MZAppearance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MZAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DA5ADFC7B0B8FDE41A810FA12FD2C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFBD520C3A10095C79F6A0469AEE905 /* RMStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMStore/RMStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMStore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMStore/RMStore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RMStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C26C14C6CB7E1FD6F842749B05255483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A974FACFC64C47B26122E89E4499745F /* MZFormSheetPresentationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZFormSheetPresentationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MZFormSheetPresentationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB982D5DEC86C9B5A54D789B2C390119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7FFD617B66A6AE2ED26E9CA6DFDDEC /* Pods-SecretCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecretCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecretCamera/Pods-SecretCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecretCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F10A76E774473E28168D3D2BB131D3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF61DE0DBFCD120D8328E97A6004726D /* Pods-SecretCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecretCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecretCamera/Pods-SecretCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecretCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD403B90E1C26CB439A7553EB593E162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208E85750EF99E586A05DBFEF04B79D5 /* Build configuration list for PBXNativeTarget "RMStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA5ADFC7B0B8FDE41A810FA12FD2C53 /* Debug */,
+				6556BF4E81CCF624C5C1AF07B6571407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B6A1E6DCF455ED4DCC77E684AD9E54 /* Debug */,
+				FD403B90E1C26CB439A7553EB593E162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D5C9E05DF4B1212F62EC9EE709C7D5 /* Build configuration list for PBXNativeTarget "Pods-SecretCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB982D5DEC86C9B5A54D789B2C390119 /* Debug */,
+				F10A76E774473E28168D3D2BB131D3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828019692235DCF35A70F03A6366A87C /* Build configuration list for PBXNativeTarget "MZFormSheetPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B5C3E429B3D108B8E149FFE282541A /* Debug */,
+				C26C14C6CB7E1FD6F842749B05255483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBC1AC62CDB2CE27FBFC6C22AB3D1BD /* Build configuration list for PBXNativeTarget "MZAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B6C2255D756113925BEA9D041C308B /* Debug */,
+				0752F808BC820BC843D4BCB72DE9A6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.3.2):
+    - MZAppearance
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - RMStore/KeychainPersistence (0.7.1):
+    - RMStore/Core
+
+DEPENDENCIES:
+  - MZFormSheetPresentationController
+  - RMStore (~> 0.7)
+  - RMStore/KeychainPersistence
+
+SPEC CHECKSUMS:
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: bba52eb65feb3b70ae83ed28fd20991802d4adeb
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+
+PODFILE CHECKSUM: e8aac9989c0847a3f4446d61094d76ecc56b449e
+
+COCOAPODS: 1.0.0.beta.6

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD06F551BDF6454008E2402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD06F541BDF6454008E2402 /* AppDelegate.swift */; };
+		3BD06F571BDF6454008E2402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD06F561BDF6454008E2402 /* ViewController.swift */; };
+		3BD06F5A1BDF6454008E2402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD06F581BDF6454008E2402 /* Main.storyboard */; };
+		3BD06F5C1BDF6454008E2402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD06F5B1BDF6454008E2402 /* Assets.xcassets */; };
+		3BD06F5F1BDF6454008E2402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD06F5D1BDF6454008E2402 /* LaunchScreen.storyboard */; };
+		3BD06F671BDF6513008E2402 /* TRALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD06F661BDF6513008E2402 /* TRALayerView.swift */; };
+		3EA5102710B690E66B3C425C /* Pods_SecretCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552A62229F353E8D3B9755C0 /* Pods_SecretCamera.framework */; };
+		41455AFE1CAA90ED00CF24D7 /* TRAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41455AFD1CAA90ED00CF24D7 /* TRAButton.swift */; };
+		4155A5D91CC79F5D00E2FB6A /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155A5D81CC79F5C00E2FB6A /* RateMyApp.swift */; };
+		41B3A0A01CBC0544004600EF /* SettingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B3A09F1CBC0544004600EF /* SettingsHelper.swift */; };
+		41B3A0A21CBC3569004600EF /* EditCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B3A0A11CBC3569004600EF /* EditCellViewController.swift */; };
+		41BAAE431CABE8E2003659D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAAE421CABE8E2003659D0 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BD06F511BDF6454008E2402 /* SecretCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD06F541BDF6454008E2402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BD06F561BDF6454008E2402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BD06F591BDF6454008E2402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD06F5B1BDF6454008E2402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BD06F5E1BDF6454008E2402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BD06F601BDF6454008E2402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD06F661BDF6513008E2402 /* TRALayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRALayerView.swift; sourceTree = "<group>"; };
+		41455AFD1CAA90ED00CF24D7 /* TRAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRAButton.swift; sourceTree = "<group>"; };
+		4155A5D81CC79F5C00E2FB6A /* RateMyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+		41B3A09F1CBC0544004600EF /* SettingsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHelper.swift; sourceTree = "<group>"; };
+		41B3A0A11CBC3569004600EF /* EditCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCellViewController.swift; sourceTree = "<group>"; };
+		41BAAE421CABE8E2003659D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		552A62229F353E8D3B9755C0 /* Pods_SecretCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE1C885FE6A473482344DDC /* Pods-SecretCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretCamera/Pods-SecretCamera.release.xcconfig"; sourceTree = "<group>"; };
+		FBC3F422EC54A80271F0318B /* Pods-SecretCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretCamera/Pods-SecretCamera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD06F4E1BDF6454008E2402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA5102710B690E66B3C425C /* Pods_SecretCamera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD06F481BDF6454008E2402 = {
+			isa = PBXGroup;
+			children = (
+				3BD06F531BDF6454008E2402 /* SecretCamera */,
+				3BD06F521BDF6454008E2402 /* Products */,
+				8149B121575DA363A6BF6667 /* Pods */,
+				71FC15DCF5023713FC252065 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD06F521BDF6454008E2402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD06F511BDF6454008E2402 /* SecretCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD06F531BDF6454008E2402 /* SecretCamera */ = {
+			isa = PBXGroup;
+			children = (
+				4155A5D81CC79F5C00E2FB6A /* RateMyApp.swift */,
+				3BD06F541BDF6454008E2402 /* AppDelegate.swift */,
+				3BD06F561BDF6454008E2402 /* ViewController.swift */,
+				3BD06F581BDF6454008E2402 /* Main.storyboard */,
+				3BD06F5B1BDF6454008E2402 /* Assets.xcassets */,
+				3BD06F5D1BDF6454008E2402 /* LaunchScreen.storyboard */,
+				3BD06F601BDF6454008E2402 /* Info.plist */,
+				41455AFD1CAA90ED00CF24D7 /* TRAButton.swift */,
+				3BD06F661BDF6513008E2402 /* TRALayerView.swift */,
+				41BAAE421CABE8E2003659D0 /* SettingsViewController.swift */,
+				41B3A09F1CBC0544004600EF /* SettingsHelper.swift */,
+				41B3A0A11CBC3569004600EF /* EditCellViewController.swift */,
+			);
+			path = SecretCamera;
+			sourceTree = "<group>";
+		};
+		71FC15DCF5023713FC252065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				552A62229F353E8D3B9755C0 /* Pods_SecretCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8149B121575DA363A6BF6667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3F422EC54A80271F0318B /* Pods-SecretCamera.debug.xcconfig */,
+				DBE1C885FE6A473482344DDC /* Pods-SecretCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD06F501BDF6454008E2402 /* SecretCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD06F631BDF6454008E2402 /* Build configuration list for PBXNativeTarget "SecretCamera" */;
+			buildPhases = (
+				A5D0D119052C25AA34A3A4DB /* 📦 Check Pods Manifest.lock */,
+				3BD06F4D1BDF6454008E2402 /* Sources */,
+				3BD06F4E1BDF6454008E2402 /* Frameworks */,
+				3BD06F4F1BDF6454008E2402 /* Resources */,
+				28C268F7C574C39BC1102052 /* 📦 Embed Pods Frameworks */,
+				E7E0A1D7ECD65395AC1DB1E4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretCamera;
+			productName = SecretCamera;
+			productReference = 3BD06F511BDF6454008E2402 /* SecretCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD06F491BDF6454008E2402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Radvansky.Tomas;
+				TargetAttributes = {
+					3BD06F501BDF6454008E2402 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SGVY646LPP;
+					};
+				};
+			};
+			buildConfigurationList = 3BD06F4C1BDF6454008E2402 /* Build configuration list for PBXProject "SecretCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD06F481BDF6454008E2402;
+			productRefGroup = 3BD06F521BDF6454008E2402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD06F501BDF6454008E2402 /* SecretCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD06F4F1BDF6454008E2402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD06F5F1BDF6454008E2402 /* LaunchScreen.storyboard in Resources */,
+				3BD06F5C1BDF6454008E2402 /* Assets.xcassets in Resources */,
+				3BD06F5A1BDF6454008E2402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28C268F7C574C39BC1102052 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecretCamera/Pods-SecretCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D0D119052C25AA34A3A4DB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E0A1D7ECD65395AC1DB1E4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecretCamera/Pods-SecretCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD06F4D1BDF6454008E2402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD06F571BDF6454008E2402 /* ViewController.swift in Sources */,
+				41B3A0A21CBC3569004600EF /* EditCellViewController.swift in Sources */,
+				41455AFE1CAA90ED00CF24D7 /* TRAButton.swift in Sources */,
+				3BD06F671BDF6513008E2402 /* TRALayerView.swift in Sources */,
+				41BAAE431CABE8E2003659D0 /* SettingsViewController.swift in Sources */,
+				4155A5D91CC79F5D00E2FB6A /* RateMyApp.swift in Sources */,
+				41B3A0A01CBC0544004600EF /* SettingsHelper.swift in Sources */,
+				3BD06F551BDF6454008E2402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BD06F581BDF6454008E2402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD06F591BDF6454008E2402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD06F5D1BDF6454008E2402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD06F5E1BDF6454008E2402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD06F611BDF6454008E2402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD06F621BDF6454008E2402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD06F641BDF6454008E2402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC3F422EC54A80271F0318B /* Pods-SecretCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SecretCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.radvansky.secretcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD06F651BDF6454008E2402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE1C885FE6A473482344DDC /* Pods-SecretCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SecretCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.radvansky.secretcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD06F4C1BDF6454008E2402 /* Build configuration list for PBXProject "SecretCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD06F611BDF6454008E2402 /* Debug */,
+				3BD06F621BDF6454008E2402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD06F631BDF6454008E2402 /* Build configuration list for PBXNativeTarget "SecretCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD06F641BDF6454008E2402 /* Debug */,
+				3BD06F651BDF6454008E2402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD06F491BDF6454008E2402 /* Project object */;
+}
